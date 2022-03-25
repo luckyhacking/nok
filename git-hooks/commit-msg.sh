@@ -44,7 +44,7 @@ main() {
     mv .git/hooks/commit-msg .git/hooks/commit-msg.bak;
   fi
 
-  curl https://gist.githubusercontent.com/luckyhacking/6e54d459674f2b73f51dc41a782ae02a/raw/68560f71f5463958cf34089a269ccbef3280274f/git-commit-msg.sh -o .git/hooks/commit-msg
+  curl https://raw.githubusercontent.com/luckyhacking/nok/main/git-hooks/commit-msg-template.sh -o .git/hooks/commit-msg
 
   chmod +x .git/hooks/commit-msg
 

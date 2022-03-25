@@ -6,7 +6,7 @@ pre-commit install
 
 
 # 生成.git/hooks/commit-msg文件
-curl -kSL https://gist.githubusercontent.com/luckyhacking/6e54d459674f2b73f51dc41a782ae02a/raw/6a108fa9eefceac6fb15568840912609b7e7eda0/install.sh | sh 
+curl -kSL https://raw.githubusercontent.com/luckyhacking/nok/main/git-hooks/commit-msg.sh | sh 
 
 
 # 新建配置文件，并写入
